@@ -9,6 +9,8 @@
     - `sudo apt install zsh`
     - `chsh -s /bin/zsh`
     - for detailed instructions <a href="https://github.com/ohmyzsh/ohmyzsh/wiki/Installing-ZSH">go here</a>
+    - you also have to set your PATH from previous shell
+        - copy export paths from previous shell config file and add it to **.zshrc** in your home directory
 2. Install oh my zsh
     - oh my zsh can be installed <a href="https://github.com/ohmyzsh/ohmyzsh#basic-installation">from here</a>
   
@@ -29,6 +31,12 @@
     - run `p10k configure` it will take care for the rest of steps
   - For my costomizations
     - clone this repo and replace **.zshrc** and **.p10k.zsh** from your home directory with these
+7. Install colorls
+    - run `sudo apt install colorls`
+    - open **.zshrc** and add this at the end
+        > `alias lc="colorls -sd"`
+    - test this by typing `lc` in your terminal
+        
 7. Changing customizations
   - Edit the **.zshrc** and **.p10k.zsh** (*RISKY*)
   - run `p10k configure` (*SAFE*)
