@@ -24,13 +24,13 @@
    - <a href="https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Italic.ttf">MesloLGS NF Italic.ttf</a>
    - <a href="https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Bold%20Italic.ttf">MesloLGS NF Bold Italic.ttf</a>
 5. Set custom font in terminal
-  - Open your __Terminal Preferences__ in *Profile Section* go to the *Text Tab* check the *Custom Font*
-  - Select `MesloLGS NF Regular font`
+      - Open your __Terminal Preferences__ in *Profile Section* go to the *Text Tab* check the *Custom Font*
+      - Select `MesloLGS NF Regular font`
 6. Configure powerlevel10k
-  - For your own costomizations
-    - run `p10k configure` it will take care for the rest of steps
-  - For my costomizations
-    - clone this repo and replace **.zshrc** and **.p10k.zsh** from your home directory with these
+      - For your own costomizations
+        - run `p10k configure` it will take care for the rest of steps
+      - For my costomizations
+        - clone this repo and replace **.zshrc** and **.p10k.zsh** from your home directory with these
 7. Install colorls
     - run `sudo apt install colorls`
     - open **.zshrc** and add this at the end
