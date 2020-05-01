@@ -38,5 +38,7 @@
     - test this by typing `lc` in your terminal
         
 7. Changing customizations
-  - Edit the **.zshrc** and **.p10k.zsh** (*RISKY*)
-  - run `p10k configure` (*SAFE*)
+      - Edit the **.zshrc** and **.p10k.zsh** (*RISKY*)
+      - run `p10k configure` (*SAFE*)
+## How to ask for help
+- The best way to ask for help is to open an issue.
